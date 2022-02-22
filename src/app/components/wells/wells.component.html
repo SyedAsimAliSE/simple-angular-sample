@@ -1,0 +1,17 @@
+<h3>Display a list of Wells</h3>
+<div>
+  <table>
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let well of wells">
+      <td>{{well.wellID}}</td>
+      <td>{{well.wellName}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
